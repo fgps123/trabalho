@@ -4,18 +4,18 @@ function preloadAssets(scene) {
   console.log(scene);
 
   /* Cenário */
-  scene.load.image("fundo", "./assets/fundo.png");
-  scene.load.image("plat", "./assets/plataforma.png");
+  scene.load.image("fundo", "./fundo.png");
+  scene.load.image("plat", "./plataforma.png");
 
   /* Player */
-  scene.load.spritesheet("player", "./assets/player.png", {
+  scene.load.spritesheet("player", "./player.png", {
     frameWidth: 32,
     frameHeight: 48,
   });
 
   /* Coletável */
-  scene.load.image("star", "./assets/star.png");
+  scene.load.image("star", "./star.png");
 
   /* Inimigos: bombs */
-  scene.load.image("bombs", "./assets/bomb.png");
+  scene.load.image("bombs", "./bomb.png");
 }
